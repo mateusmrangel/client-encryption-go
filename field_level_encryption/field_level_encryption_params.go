@@ -4,8 +4,8 @@ import (
 	"crypto/rand"
 	"crypto/rsa"
 	"crypto/sha256"
-	"github.com/mastercard/client-encryption-go/aes_encryption"
-	"github.com/mastercard/client-encryption-go/utils"
+	"github.com/mateusmrangel/client-encryption-go/aes_encryption"
+	"github.com/mateusmrangel/client-encryption-go/utils"
 )
 
 type FieldLevelEncryptionParams struct {

@@ -2,7 +2,7 @@ package encryption
 
 import (
 	"github.com/Jeffail/gabs/v2"
-	"github.com/mastercard/client-encryption-go/jwe"
+	"github.com/mateusmrangel/client-encryption-go/jwe"
 )
 
 func EncryptPayload(payload string, config jwe.JWEConfig) string {
