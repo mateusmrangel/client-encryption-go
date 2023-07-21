@@ -1,4 +1,4 @@
-module github.com/mastercard/client-encryption-go
+module github.com/mateusmrangel/client-encryption-go
 
 go 1.15
 
