@@ -2,9 +2,9 @@ package mastercard_encryption
 
 import (
 	"github.com/Jeffail/gabs/v2"
-	"github.com/mastercard/client-encryption-go/aes_encryption"
-	"github.com/mastercard/client-encryption-go/field_level_encryption"
-	"github.com/mastercard/client-encryption-go/utils"
+	"github.com/mateusmrangel/client-encryption-go/aes_encryption"
+	"github.com/mateusmrangel/client-encryption-go/field_level_encryption"
+	"github.com/mateusmrangel/client-encryption-go/utils"
 )
 
 func EncryptPayload(payload string, config field_level_encryption.FieldLevelEncryptionConfig) string {

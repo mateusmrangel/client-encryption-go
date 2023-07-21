@@ -4,8 +4,8 @@ import (
 	"crypto/rsa"
 	"testing"
 
-	"github.com/mastercard/client-encryption-go/jwe"
-	"github.com/mastercard/client-encryption-go/utils"
+	"github.com/mateusmrangel/client-encryption-go/jwe"
+	"github.com/mateusmrangel/client-encryption-go/utils"
 	"github.com/stretchr/testify/assert"
 )
 

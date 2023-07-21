@@ -3,7 +3,7 @@ package aes_encryption_test
 import (
 	"testing"
 
-	"github.com/mastercard/client-encryption-go/aes_encryption"
+	"github.com/mateusmrangel/client-encryption-go/aes_encryption"
 	"github.com/stretchr/testify/assert"
 )
 
